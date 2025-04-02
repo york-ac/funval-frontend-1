@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.styles__for__navbar {
+    margin-top: 12px;
+    background-color: #0082e6;
+    height: 300px;
+    width: 100%;
+
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+
+.styles__for__ul {
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 450px;
+    clip-path: circle();
+
+}
+
+.link {
+    font-size: 18px;
+    /* background-color: rgb(221, 130, 148); */
+    color: rgb(165, 20, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* text-align: center; */
+    text-decoration: none;
+    font-weight: bold;
+    border: solid 3px rgba(7, 60, 95, 0.725);
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 12px;
+    text-transform: uppercase;
+
+
+}
+
+.navbar__li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+    margin-top: 15px;
+}
+
+.remove__bullets {
+    list-style-type: none;
+}
+
+.link:hover {
+    background-color: bisque;
+    color: darkgreen;
+}
+
+
+.final--link {
+    font-size: 22px;
+    background-color: rgb(221, 130, 148);
+    color: rgb(165, 20, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
+    border: solid 3px rgba(7, 60, 95, 0.725);
+    padding: 14px 16px;
+
+
+
+}
+
+
+.final--link:hover {
+    background-color: #d58e35;
+    color: #a00c0c;
+}
+
+
+.styles--for--lists {
+    color: rgb(5, 5, 58);
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px 60px;
+
+}
+
+
+.styles--for--lists:hover {
+    background-color: hwb(232 3% 74%);
+    color: antiquewhite;
+    border-radius: 14px;
+}
+
+
+
+#styles-for-headers {
+    color: rgb(89, 5, 5);
+    background-color: burlywood;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 4px goldenrod;
+    border-radius: 14px;
+}

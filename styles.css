@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(rgb(35, 35, 191), 10%, pink);
+}
+
+
+
+
+li {
+    list-style: none;
+    margin: 15px;
+
+}
+
+
+/* .list {
+    list-style: disc;
+
+} */
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.card {
+    background-color: #000080;
+    margin: 20px;
+    width: 150px;
+    padding: 15px 10px;
+    border-radius: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
