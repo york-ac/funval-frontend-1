@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+
+body {
+    font-family: "Young Serif", serif;
+    background-color: antiquewhite;
+}
+
+
+.container {
+    width: 58%;
+    background-color: hsl(0, 0%, 100%);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+
+#omelette {
+    width: 100%;
+}

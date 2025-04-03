@@ -41,3 +41,132 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(19, 124, 180);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+td {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+th {
+    font-size: 20px;
+}
+
+td,
+th {
+    border: solid #fbd7bb 1px;
+    padding: 2px 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.row:nth-child(even) {
+    background-color: #89cff0;
+}
+
+
+
+.tb_container {
+    width: 100%;
+    padding-inline: 30px;
+    padding-block: 20px;
+
+
+}
+
+
+form {
+    margin-inline: auto;
+    width: 450px;
+    border-radius: 5px;
+
+    /*Para centrar el div*/
+
+    display: flex;
+    justify-content: center;
+    padding-block: 1rem;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(19, 124, 180);
+}
+
+
+.style--for--labels {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a52a2a;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    padding: 2px;
+}
+
+input,
+input::placeholder {
+    font-size: 18px;
+}
+
+
+select {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+textarea {
+    width: 400px;
+    height: 80px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+textarea::placeholder {
+    font-size: 18px;
+}
+
+
+button {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: peachpuff;
+    background-color: rgb(12, 92, 135);
+    border: solid rgb(255, 185, 197) 2px;
+    border-radius: 10px;
+
+}
+
+
+
+.style--for--form {
+    background-color: #96d8f7;
+}
